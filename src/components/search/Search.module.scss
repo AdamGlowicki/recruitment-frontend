@@ -1,0 +1,10 @@
+@import "src/assets/styles/import";
+
+.container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-shrink: 0;
+  height: 100px;
+  justify-content: center;
+}

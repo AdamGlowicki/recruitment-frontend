@@ -1,0 +1,13 @@
+@import "src/assets/styles/import";
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 8px;
+  border: none;
+  background: $cl-success-100;
+  box-shadow: $inputShadow;
+}

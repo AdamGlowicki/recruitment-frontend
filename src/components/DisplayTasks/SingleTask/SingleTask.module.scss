@@ -1,0 +1,43 @@
+@import "src/assets/styles/import";
+
+.verticalPositioner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.taskContainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px 8px 20px;
+  border: 2px solid $cl-200;
+  border-radius: 20px;
+  background: $cl-success-300;
+  box-shadow: $primaryShadow;
+
+  &.complete {
+    background: $cl-success-100;
+  }
+}
+
+.leftSide {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.rightSide {
+  display: flex;
+  gap: 16px;
+}
+
+.isComplete {
+  text-decoration: line-through;
+}
+
+.title {
+  text-transform: capitalize;
+  font: 600 14px/22px $font-primary;
+
+}

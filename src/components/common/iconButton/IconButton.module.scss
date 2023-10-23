@@ -1,0 +1,43 @@
+@import "src/assets/styles/shadow";
+
+.button {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  &.whole {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: $primaryShadow;
+  }
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+
+  &.big {
+    width: 80px;
+    height: 80%;
+  }
+
+  &.medium {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+
